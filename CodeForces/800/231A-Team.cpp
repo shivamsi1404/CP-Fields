@@ -25,3 +25,6 @@ int main()
 
     return 0;
 }
+
+// Problem: Count the problems where at least two of three friends are sure of the solution.
+// Solution: For each row, if a + b + c >= 2, increment the counter; print it once at the end.
