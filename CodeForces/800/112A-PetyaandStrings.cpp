@@ -53,3 +53,6 @@ int main()
 
     return 0;
 }
+
+// 112A - Petya and Strings: Compare two equal-length strings lexicographically, ignoring case; print -1, 0 or 1.
+// Solution: Lowercase each character pair, the first differing pair decides (-1 or 1), and if none differ the answer is 0.
