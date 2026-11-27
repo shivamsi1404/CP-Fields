@@ -25,3 +25,5 @@ int main()
     return 0;
 }
 
+// Problem: An elephant moves 1 to 5 steps at a time; find the minimum number of steps to reach position x.
+// Solution: Greedy: use steps of size 5 as much as possible, so the answer is ceil(x / 5), i.e. (x + 4) / 5.
